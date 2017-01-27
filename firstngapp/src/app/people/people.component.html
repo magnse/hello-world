@@ -1,0 +1,11 @@
+<p>
+  people works!
+</p>
+
+<button>Add new person</button>
+
+<new-person (onSubmitted)="onSubmit($event)"></new-person>
+
+<hr>
+
+<profile [person]="person" *ngFor="let person of people"></profile>

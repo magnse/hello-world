@@ -1,0 +1,13 @@
+<div class="user-profile">
+  <div class="avatar">
+    <img src="" alt="">
+  </div>
+  <div class="profile">
+    <span>
+      <strong>{{person.name}}</strong><br> 
+      <i>{{person.status}}</i>
+    </span>
+    <span *ngIf="person.bikepage"><i class="fa fa-chrome"></i><a href="{{person.bikepage.url}}"> {{person.bikepage.name}}</a></span>
+    <span *ngIf="person.website"><i class="fa fa-chrome"></i><a href="{{person.website.url}}"> {{person.website.name}}</a></span>
+  </div>
+</div>

@@ -1,1 +1,2 @@
 
+The firstngapp is my start as a angular2 developer. So far I think Angular rocks!
